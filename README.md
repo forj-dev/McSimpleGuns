@@ -1,13 +1,12 @@
 # McSimpleGuns
 Vanilla Minecraft datapack. Add customizable guns to the game
 
+## Supported Versions
+1.16.2 - 1.19.3
+
 ## How to use it
 
 Put the datapack in the datapacks folder and use /reload to load it.
-
-When you load it for the first time, run /function simpleguns:init
-
-Run /function simpleguns:tick every tick (you can put it in a repeat command block).
 
 ## Create guns
 
