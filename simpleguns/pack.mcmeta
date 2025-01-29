@@ -1,6 +1,7 @@
 {
   "pack": {
     "pack_format": 12,
+    "supported_formats":[6,12],
     "description": "Guns In MC"
   }
 }
