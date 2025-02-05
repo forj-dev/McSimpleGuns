@@ -3,7 +3,7 @@
 
 #spawn temp entity
 # ADJUST THE SPEED OF BULLET HERE
-execute positioned 0.0 0.0 0.0 rotated as @s run summon minecraft:armor_stand ^ ^ ^5 {Tags:["simpleguns_shoot"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+execute positioned 0.0 0.0 0.0 rotated as @s run summon minecraft:armor_stand ^ ^ ^10 {Tags:["simpleguns_shoot"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
 
 #spawn bullet
 execute at @s anchored eyes run summon minecraft:arrow ^ ^ ^0.5 {Tags:["simpleguns_shooted","simpleguns_bullet"]}
