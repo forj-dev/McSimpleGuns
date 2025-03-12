@@ -12,6 +12,8 @@ scoreboard objectives add simpleguns_rotation dummy
 
 scoreboard objectives add simpleguns_static dummy
 
+scoreboard objectives add simpleguns_carrot_trigger minecraft.used:minecraft.carrot_on_a_stick
+
 scoreboard players set const-2 simpleguns_static -2
 scoreboard players set randmod simpleguns_static 1000000009
 scoreboard players set randadd simpleguns_static 1117
