@@ -7,6 +7,7 @@ Vanilla Minecraft datapack. Add customizable guns to the game
 ## How to use it
 
 Put the datapack in the datapacks folder and use /reload to load it.
+If it does not work, try placing a repeating command block with always active, and enter command /function simpleguns:tick 
 
 ## Create guns
 
@@ -22,3 +23,8 @@ Put the datapack in the datapacks folder and use /reload to load it.
 
 ### The 'damage' above is not the real damage! real damage=damage*speed(default 10)
 You can modify the speed in simpleguns/data/simpleguns/functions/shoot.mcfunction
+
+## Tips
+
+You can use CustomModelData to customize the texture of the guns.
+There is an example(the resource pack named customguns). It contains a pistol(CustomModelData:1), a rifle(2) and a shotgun(3).
